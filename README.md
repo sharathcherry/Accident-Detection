@@ -34,16 +34,16 @@ The **Accident Detection App** is a sophisticated safety system engineered for v
 ```
 ┌─────────────────┐         Wireless          ┌──────────────────┐
 │  ESP Sensor     │◄──────(BT/WiFi)──────────►│  Android App     │
-│  Module         │                            │                  │
-│  - Accelerometer│                            │  - ONNX ML Model │
-│  - Gyroscope    │                            │  - GPS Tracking  │
-│  - Data TX      │                            │  - SMS Handler   │
-└─────────────────┘                            └──────────────────┘
+│  Module         │                           │                  │
+│  - Accelerometer│                           │  - ONNX ML Model │
+│  - Gyroscope    │                           │  - GPS Tracking  │
+│  - Data TX      │                           │  - SMS Handler   │
+└─────────────────┘                           └──────────────────┘
                                                         │
                                                         ▼
                                                ┌─────────────────┐
-                                               │ Emergency SMS    │
-                                               │ to Contacts      │
+                                               │ Emergency SMS   │
+                                               │ to Contacts     │
                                                └─────────────────┘
 ```
 
