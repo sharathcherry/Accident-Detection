@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color Palette -->
+    <color name="primary_blue">#1E88E5</color>
+    <color name="primary_blue_dark">#1565C0</color>
+    <color name="primary_blue_light">#42A5F5</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_purple">#7C4DFF</color>
+    <color name="accent_teal">#00BFA5</color>
+
+    <!-- Emergency Red -->
+    <color name="emergency_red">#FF3D00</color>
+    <color name="emergency_red_dark">#DD2C00</color>
+
+    <!-- Success Green -->
+    <color name="success_green">#00C853</color>
+    <color name="success_light">#69F0AE</color>
+
+    <!-- Background & Surface -->
+    <color name="background_gradient_start">#0F2027</color>
+    <color name="background_gradient_middle">#203A43</color>
+    <color name="background_gradient_end">#2C5364</color>
+
+    <color name="card_background">#FFFFFF</color>
+    <color name="surface_light">#F8F9FA</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+
+    <color name="gradient_red_start">#FF416C</color>
+    <color name="gradient_red_end">#FF4B2B</color>
+
+    <color name="gradient_green_start">#56ab2f</color>
+    <color name="gradient_green_end">#a8e063</color>
+
+    <color name="gradient_blue_start">#2193b0</color>
+    <color name="gradient_blue_end">#6dd5ed</color>
+
+    <!-- Status Colors -->
+    <color name="status_connected">#4CAF50</color>
+    <color name="status_disconnected">#F44336</color>
+
+    <!-- Info and Warning Colors -->
+    <color name="info_background">#E3F2FD</color>
+    <color name="warning_orange">#FF9800</color>
+
+    <!-- Transparent -->
+    <color name="transparent_black">#80000000</color>
+    <color name="transparent_white">#80FFFFFF</color>
+</resources>

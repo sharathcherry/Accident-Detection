@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Accident Detection</string>
+    <string name="bluetooth_status">Bluetooth Status</string>
+    <string name="disconnected_from_esp32_full">Disconnected from ESP32</string>
+    <string name="bluetooth_connect">Connect to ESP32</string>
+    <string name="emergency_contacts_title_emoji">Emergency Contacts</string>
+    <string name="add_button_text">Add</string>
+    <string name="empty_contacts_title">No contacts added yet</string>
+    <string name="empty_contacts_add_prompt">Click ADD to get started</string>
+    <string name="manual_alert_button">MANUAL EMERGENCY ALERT</string>
+    <string name="manual_alert_subtext">Press if you need immediate assistance</string>
+    <string name="system_active_monitoring">System Active - Monitoring...</string>
+    <string name="gps_acquiring">GPS: Acquiring...</string>
+
+    <!-- Additions for dialogs and item_contact -->
+    <string name="add_emergency_contact">Add Emergency Contact</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_contact_name">Contact Name</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="accident_detected_title">Accident Detected!</string>
+    <string name="emergency_sending_message">Sending emergency message...</string>
+    <string name="location_fetching">Location: Fetching...</string>
+    <string name="sms_sending_status_generic">Sending SMS...</string>
+    <string name="cd_person_icon">Person Icon</string>
+    <string name="cd_delete_contact">Delete Contact</string>
+
+    <!-- The contact_types array should only be in arrays.xml -->
+</resources>

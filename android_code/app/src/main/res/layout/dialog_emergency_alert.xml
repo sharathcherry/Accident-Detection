@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center">
+
+        <!-- Emergency Icon -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_warning"
+            app:tint="@color/emergency_red"
+            android:contentDescription="@null"/>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accident_detected_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/emergency_red"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Progress Indicator -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/emergency_sending_message"
+            android:textAlignment="center"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
+
+        <ProgressBar
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:indeterminateTint="@color/primary_blue"/>
+
+        <!-- Location Info -->
+        <TextView
+            android:id="@+id/tvAlertLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location_fetching"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="16dp"/>
+
+        <!-- SMS Status -->
+        <TextView
+            android:id="@+id/tvSmsStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sms_sending_status_generic"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Button Container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center">
+
+            <!-- Cancel Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCancelAlert"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel"
+                android:textSize="16sp"
+                android:layout_marginEnd="8dp"
+                app:cornerRadius="15dp"
+                app:backgroundTint="@color/emergency_red"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+            <!-- Close Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCloseDialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/close"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:layout_marginStart="8dp"
+                app:cornerRadius="15dp"
+                app:backgroundTint="@color/primary_blue"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

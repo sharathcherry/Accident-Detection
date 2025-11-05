@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar"> <!-- Changed to NoActionBar -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryDark">@color/primary_blue_dark</item>
+        <item name="colorAccent">@color/accent_purple</item>
+        <item name="android:statusBarColor">@color/background_gradient_start</item>
+        <item name="android:windowBackground">@drawable/gradient_background</item>
+    </style>
+
+    <!-- Modern Card Style -->
+    <style name="ModernCardView">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">20dp</item>
+    </style>
+
+    <!-- Modern Button Style -->
+    <style name="ModernButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">25dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <!-- Emergency Button Style -->
+    <style name="EmergencyButton" parent="ModernButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:background">@drawable/gradient_red_button</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Modern EditText Style -->
+    <style name="ModernEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">15dp</item>
+        <item name="boxCornerRadiusTopEnd">15dp</item>
+        <item name="boxCornerRadiusBottomStart">15dp</item>
+        <item name="boxCornerRadiusBottomEnd">15dp</item>
+        <item name="boxStrokeColor">@color/primary_blue</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+</resources>
